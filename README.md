@@ -61,9 +61,8 @@ in
   ];
 ```
 
-now, start-sonic doesn't seem to work in a vtty
+fyi, start-sonic doesn't seem to work in a vtty, so I made it so that it will show up in sddm. this is mostly me, and not grok, but real credit goes to @therealimpersonator on the nixOS discord for showing me the relevant option. TYSM!!!!
 
-supposedly, this would get it to show up in say, SDDM
 ```
   services.xserver.displayManager.session = [
     { manage = "desktop";
@@ -84,8 +83,6 @@ supposedly, this would get it to show up in say, SDDM
   ];
 ```
 
-
-however, due to a source issue (maybe. see the txt file in this repo), I don't know if it will work ATM
 
 
 
