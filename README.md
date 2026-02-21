@@ -10,6 +10,8 @@ YOU WILL HAVE TO CHANGE THIS PATH EVERYWHERE IT IS MENTIONED IN THE FLAKES
 
 here's the tree after I cloned them:
 
+I HAVE NO CLUE HOW TO USE MARKDOWN, SO THIS TREE NO WORKEE. GO BY YOUR GUT.
+
 /home/implict/
  -sonic-DE/
    -sonic-win/
