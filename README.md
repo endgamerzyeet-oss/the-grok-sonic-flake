@@ -11,10 +11,10 @@ YOU WILL HAVE TO CHANGE THIS PATH EVERYWHERE IT IS MENTIONED IN THE FLAKES
 here's the tree after I cloned them:
 
 /home/implict/
-  sonic-DE/
-    sonic-win/
+ -sonic-DE/
+   -sonic-win/
       ...
-    sonic-workspace/
+   -sonic-workspace/
       ...
 
 copy swo.nix to flake.nix in sonic-workspace, and swi.nix to flake.nix in sonic-win
