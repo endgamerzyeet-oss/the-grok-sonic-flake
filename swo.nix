@@ -5,7 +5,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
 
-    sonic-win.url = "path:/home/implicit/sonic-DE/sonic-win/";
+    sonic-win.url = "path:/home/implicit/Sonic-DE/sonic-win/";
   };
 
   outputs = { self, nixpkgs, flake-utils, sonic-win }:
