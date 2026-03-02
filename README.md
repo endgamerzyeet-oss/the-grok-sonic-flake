@@ -2,9 +2,9 @@ a flake for sonic-DE on nixOS.
 
 BE AWARE THE FLAKE CONTAINS HARDCODED PATHS THAT WILL NOT BE VALID ON YOUR SYSTEM. this is because the sonic repo does not have a flake.nix yet
 
-first, you must clone both sonic-win and sonic-workspace onto your system
+first, you must clone both sonic-win, sonic-workspace, and sonic-desktop-interface onto your system
 
-on my system, I cloned them to /home/implicit/sonic-DE/
+on my system, I cloned them to /home/implicit/Sonic-DE/
 
 YOU WILL HAVE TO CHANGE THIS PATH EVERYWHERE IT IS MENTIONED IN THE FLAKES
 
@@ -13,16 +13,22 @@ here's the tree after I cloned them:
 I HAVE NO CLUE HOW TO USE MARKDOWN, SO THIS TREE NO WORKEE. GO BY YOUR GUT.
 
 /home/implict/
- -sonic-DE/
+ -Sonic-DE/
    -sonic-win/
       ...
    -sonic-workspace/
       ...
+   -sonic-desktop-interface/
+      ...
 
-copy swo.nix to flake.nix in sonic-workspace, and swi.nix to flake.nix in sonic-win
+
+copy swo.nix to flake.nix in sonic-workspace, swi.nix to flake.nix in sonic-win, and sdi.nix to flake.nix in sonic-desktop-interface
 
 
 here are the lines I used to add it to my config.nix
+
+
+at the moment, this is irrelevant, working on getting sdi to build
 
 ```
 let
