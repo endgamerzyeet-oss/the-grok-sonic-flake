@@ -43,10 +43,10 @@
 
           buildInputs = with kde; [
 
-                        qtbase
+            qtbase
             qtdeclarative
             qtsvg
-            qtwayland
+            #qtwayland
             qt5compat
             qttools
             qtsensors
@@ -94,9 +94,47 @@
 
             kde.kscreenlocker
 
+            kio
+            kfilemetadata
+
+            solid
+            networkmanager-qt
+
+            ktextwidgets
+
+            kwallet
+
+            kpeople
+
+            kirigami
+            kirigami-addons
+
+            plasma5support
+
+            libkexiv2
+            kpipewire
+
+            appstream-qt
+            packagekit-qt
+            layer-shell-qt
+
+            phonon
+            kscreen
+            kholidays
+
+            kquickcharts
+            kqtquickcharts
+
+            kunitconversion
+
+            kuserfeedback
+
+
           ] ++ (with qt6; [
             #qtquickcontrols2
             qtshadertools
+
+
           ]) ++ (with pkgs; [
             libX11
             libXcomposite
@@ -107,6 +145,9 @@
             libXcursor
             libXinerama
             libxkbcommon
+            libxcb-cursor
+            libxcb-util
+            libxcb-image
             #xcb-util
             #xcb-util-keysyms
             #xcb-util-wm
@@ -115,8 +156,8 @@
             #epoxy
             libdrm
             mesa
-            wayland
-            wayland-protocols
+            #wayland
+            #wayland-protocols
             libinput
             udev
 
@@ -128,8 +169,17 @@
 
             libxft
             libsm
-            phonon
             libqalculate
+
+            isocodes
+            libisocodes
+            libnma
+            pipewire
+
+            libXtst
+
+            libsForQt5.kirigami2
+            libsForQt5.polkit-qt
 
           ]);
 

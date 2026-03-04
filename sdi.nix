@@ -16,7 +16,7 @@
       let
         pkgs = nixpkgs.legacyPackages.${system};
         kde = pkgs.kdePackages;
-        qt6 = pkgs.qt6;
+        qt6 = pkgs.libsForQt5;
 
         sonicWorkspace = sonic-workspace.packages.${system}.default;
 
@@ -56,7 +56,7 @@
             qtbase
             qtdeclarative
             qtsvg
-            qtwayland
+            #qtwayland
             qt5compat
             qttools
             qtsensors
@@ -94,7 +94,7 @@
             krunner
             ktexteditor
             plasma5support
-            kwayland
+            #kwayland
             plasma-activities
             plasma-activities-stats
             baloo
@@ -134,8 +134,8 @@
             #epoxy
             libdrm
             mesa
-            wayland
-            wayland-protocols
+            #wayland
+            #wayland-protocols
             libinput
             udev
 

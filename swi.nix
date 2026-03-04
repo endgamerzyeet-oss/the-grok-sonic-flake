@@ -11,7 +11,7 @@
       let
         pkgs = nixpkgs.legacyPackages.${system};
         kde = pkgs.kdePackages;
-        qt6 = pkgs.qt6;
+        qt6 = pkgs.libsForQt5;
 
       in rec {
         packages.default = pkgs.stdenv.mkDerivation {
@@ -69,6 +69,11 @@
 
             kde.kscreenlocker
 
+            aurorae
+            breeze
+
+            plasma5support
+
           ] ++ (with qt6; [
             #qtquickcontrols2
             qtshadertools
@@ -90,14 +95,32 @@
             #epoxy
             libdrm
             mesa
-            wayland
-            wayland-protocols
+            #wayland
+            #wayland-protocols
             libinput
             udev
 
             libcanberra
             libdisplay-info
             lcms2
+
+            expat
+            hwdata
+
+            libsm
+            libxi
+            libcap
+            libei
+            pipewire
+            fontconfig
+            freetype
+            appstream
+            glib-networking
+
+            vulkan-headers
+            vulkan-loader
+
+
 
           ]);
 
