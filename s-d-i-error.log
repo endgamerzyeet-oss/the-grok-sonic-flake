@@ -1,0 +1,516 @@
+Running phase: qtPreHook
+@nix { "action": "setPhase", "phase": "qtPreHook" }
+Running phase: unpackPhase
+@nix { "action": "setPhase", "phase": "unpackPhase" }
+unpacking source archive /nix/store/63k8c85mc2b1lplnxjmm0v6w2j9vh83c-bhb3ssgn80zzlbfs94xjxsgmwyr23vdq-source
+source root is bhb3ssgn80zzlbfs94xjxsgmwyr23vdq-source
+Running phase: patchPhase
+@nix { "action": "setPhase", "phase": "patchPhase" }
+patching script interpreter paths in .
+./kcms/runners/Messages.sh: interpreter directive changed from "#! /usr/bin/env bash" to "/nix/store/2hjsch59amjs3nbgh7ahcfzm2bfwl8zi-bash-5.3p9/bin/bash"
+./kcms/touchpad/icon/makeicons.sh: interpreter directive changed from "#!/bin/sh" to "/nix/store/2hjsch59amjs3nbgh7ahcfzm2bfwl8zi-bash-5.3p9/bin/sh"
+./kcms/mouse/misc/consoleUserPerms: interpreter directive changed from "#!/bin/bash" to "/nix/store/2hjsch59amjs3nbgh7ahcfzm2bfwl8zi-bash-5.3p9/bin/bash"
+./kcms/keyboard/Messages.sh: interpreter directive changed from "#! /usr/bin/env bash" to "/nix/store/2hjsch59amjs3nbgh7ahcfzm2bfwl8zi-bash-5.3p9/bin/bash"
+./runners/keys/Messages.sh: interpreter directive changed from "#! /usr/bin/env bash" to "/nix/store/2hjsch59amjs3nbgh7ahcfzm2bfwl8zi-bash-5.3p9/bin/bash"
+./runners/plasma-desktop/Messages.sh: interpreter directive changed from "#! /usr/bin/env bash" to "/nix/store/2hjsch59amjs3nbgh7ahcfzm2bfwl8zi-bash-5.3p9/bin/bash"
+./runners/kwin/Messages.sh: interpreter directive changed from "#! /usr/bin/env bash" to "/nix/store/2hjsch59amjs3nbgh7ahcfzm2bfwl8zi-bash-5.3p9/bin/bash"
+./emojier/data/update-emoji-data.py: interpreter directive changed from "#!/usr/bin/env python3" to "/nix/store/navpacx5n5vv7s4pcz0g8mkl01cb9w0g-python3-minimal-3.13.12/bin/python3"
+./applets/showdesktop/Messages.sh: interpreter directive changed from "#! /usr/bin/env bash" to "/nix/store/2hjsch59amjs3nbgh7ahcfzm2bfwl8zi-bash-5.3p9/bin/bash"
+./appiumtests/kcms/kcm_kded_test.py: interpreter directive changed from "#!/usr/bin/env python3" to "/nix/store/navpacx5n5vv7s4pcz0g8mkl01cb9w0g-python3-minimal-3.13.12/bin/python3"
+./appiumtests/kcms/kcm_plasmasearch_test.py: interpreter directive changed from "#!/usr/bin/env python3" to "/nix/store/navpacx5n5vv7s4pcz0g8mkl01cb9w0g-python3-minimal-3.13.12/bin/python3"
+./appiumtests/kcms/kcm_keys_test.py: interpreter directive changed from "#!/usr/bin/env python3" to "/nix/store/navpacx5n5vv7s4pcz0g8mkl01cb9w0g-python3-minimal-3.13.12/bin/python3"
+./appiumtests/emojiertest.py: interpreter directive changed from "#!/usr/bin/env python3" to "/nix/store/navpacx5n5vv7s4pcz0g8mkl01cb9w0g-python3-minimal-3.13.12/bin/python3"
+./appiumtests/desktop/folderviewtest.py: interpreter directive changed from "#!/usr/bin/env python3" to "/nix/store/navpacx5n5vv7s4pcz0g8mkl01cb9w0g-python3-minimal-3.13.12/bin/python3"
+./appiumtests/desktop/desktoptest.py: interpreter directive changed from "#!/usr/bin/env python3" to "/nix/store/navpacx5n5vv7s4pcz0g8mkl01cb9w0g-python3-minimal-3.13.12/bin/python3"
+./appiumtests/desktop/panelfocustest.py: interpreter directive changed from "#!/usr/bin/env python3" to "/nix/store/navpacx5n5vv7s4pcz0g8mkl01cb9w0g-python3-minimal-3.13.12/bin/python3"
+./appiumtests/desktop/bug482267.py: interpreter directive changed from "#!/usr/bin/env python3" to "/nix/store/navpacx5n5vv7s4pcz0g8mkl01cb9w0g-python3-minimal-3.13.12/bin/python3"
+./appiumtests/desktop/bug472909_activewindow.py: interpreter directive changed from "#!/usr/bin/env python3" to "/nix/store/navpacx5n5vv7s4pcz0g8mkl01cb9w0g-python3-minimal-3.13.12/bin/python3"
+./appiumtests/desktop/bug488736_adaptive_opacity.py: interpreter directive changed from "#!/usr/bin/env python3" to "/nix/store/navpacx5n5vv7s4pcz0g8mkl01cb9w0g-python3-minimal-3.13.12/bin/python3"
+./appiumtests/desktop/bug476968.py: interpreter directive changed from "#!/usr/bin/env python3" to "/nix/store/navpacx5n5vv7s4pcz0g8mkl01cb9w0g-python3-minimal-3.13.12/bin/python3"
+./appiumtests/desktop/bug472909.py: interpreter directive changed from "#!/usr/bin/env python3" to "/nix/store/navpacx5n5vv7s4pcz0g8mkl01cb9w0g-python3-minimal-3.13.12/bin/python3"
+./appiumtests/desktop/desktoptest_testwindow.py: interpreter directive changed from "#!/usr/bin/env python3" to "/nix/store/navpacx5n5vv7s4pcz0g8mkl01cb9w0g-python3-minimal-3.13.12/bin/python3"
+./appiumtests/applets/taskmanager_visiblelabel.py: interpreter directive changed from "#!/usr/bin/env python3" to "/nix/store/navpacx5n5vv7s4pcz0g8mkl01cb9w0g-python3-minimal-3.13.12/bin/python3"
+./appiumtests/applets/kickofftest/kickofftest.py: interpreter directive changed from "#!/usr/bin/env python3" to "/nix/store/navpacx5n5vv7s4pcz0g8mkl01cb9w0g-python3-minimal-3.13.12/bin/python3"
+./appiumtests/applets/taskmanagertest.py: interpreter directive changed from "#!/usr/bin/env python3" to "/nix/store/navpacx5n5vv7s4pcz0g8mkl01cb9w0g-python3-minimal-3.13.12/bin/python3"
+substituteStream() in derivation sonic-desktop-interface-unstable-2026-02: WARNING: '--replace' is deprecated, use --replace-{fail,warn,quiet}. (file 'CMakeLists.txt')
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+@nix { "action": "setPhase", "phase": "updateAutotoolsGnuConfigScriptsPhase" }
+Running phase: configurePhase
+@nix { "action": "setPhase", "phase": "configurePhase" }
+cmake flags: -GNinja -DCMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY=OFF -DCMAKE_FIND_USE_PACKAGE_REGISTRY=OFF -DCMAKE_EXPORT_NO_PACKAGE_REGISTRY=ON -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DCMAKE_INSTALL_LOCALEDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/locale -DCMAKE_INSTALL_LIBEXECDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/libexec -DCMAKE_INSTALL_LIBDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/lib -DCMAKE_INSTALL_DOCDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/doc/plasma-desktop -DCMAKE_INSTALL_INFODIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/info -DCMAKE_INSTALL_MANDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/man -DCMAKE_INSTALL_INCLUDEDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/include -DCMAKE_INSTALL_SBINDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/sbin -DCMAKE_INSTALL_BINDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/bin -DCMAKE_INSTALL_NAME_DIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/lib -DCMAKE_STRIP=/nix/store/kbw2j1vag664b3sj3rjwz9v53cqx87sb-gcc-wrapper-15.2.0/bin/strip -DCMAKE_RANLIB=/nix/store/kbw2j1vag664b3sj3rjwz9v53cqx87sb-gcc-wrapper-15.2.0/bin/ranlib -DCMAKE_AR=/nix/store/kbw2j1vag664b3sj3rjwz9v53cqx87sb-gcc-wrapper-15.2.0/bin/ar -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_INSTALL_PREFIX=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02 -DBUILD_TESTING=OFF -DCMAKE_INSTALL_LIBEXECDIR=libexec -DKDE_INSTALL_USE_QT_SYS_PATHS=ON -DCMAKE_PREFIX_PATH=/nix/store/qn49y9dprsrbclxj8a3mpgbd28if5l3s-sonic-workspace-unstable-2026-02\;/nix/store/d398ja5gvvap89gjdv4l7p7nhghxszhr-sonic-win-unstable-2026-02 -DBUILD_KCM_MOUSE_X11=OFF -DBUILD_KCM_TOUCHPAD_X11=OFF -DQT_OPTIONAL_TOOLS_PATH=/nix/store/cfwgzfqmdxrg5gj5745mpcr1qnqyln8z-qttools-6.10.2 -DQT_OPTIONAL_TOOLS_PATH=/nix/store/cfwgzfqmdxrg5gj5745mpcr1qnqyln8z-qttools-6.10.2 -DKDE_INSTALL_EXECROOTDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02 -DKDE_INSTALL_BINDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/bin -DKDE_INSTALL_SBINDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/sbin -DKDE_INSTALL_LIBDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/lib -DKDE_INSTALL_LIBEXECDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/libexec -DKDE_INSTALL_CMAKEPACKAGEDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/lib/cmake -DKDE_INSTALL_QTPLUGINDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/lib/qt-6/plugins -DKDE_INSTALL_PLUGINDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/lib/qt-6/plugins -DKDE_INSTALL_QMLDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/lib/qt-6/qml -DKDE_INSTALL_INCLUDEDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/include -DKDE_INSTALL_LOCALSTATEDIR=/var -DKDE_INSTALL_SHAREDSTATEDIR=/com -DKDE_INSTALL_DATAROOTDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share -DKDE_INSTALL_DATADIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share -DKDE_INSTALL_DOCBUNDLEDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/doc/HTML -DKDE_INSTALL_KCFGDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/config.kcfg -DKDE_INSTALL_KCONFUPDATEDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/kconf_update -DKDE_INSTALL_KAPPTEMPLATESDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/kdevappwizard/templates -DKDE_INSTALL_KFILETEMPLATESDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/kdevfiletemplates/templates -DKDE_INSTALL_KXMLGUIDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/kxmlgui5 -DKDE_INSTALL_KNOTIFYRCDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/knotifications6 -DKDE_INSTALL_ICONDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/icons -DKDE_INSTALL_LOCALEDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/locale -DKDE_INSTALL_SOUNDDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/sounds -DKDE_INSTALL_TEMPLATEDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/templates -DKDE_INSTALL_WALLPAPERDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/wallpapers -DKDE_INSTALL_APPDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/applications -DKDE_INSTALL_DESKTOPDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/desktop-directories -DKDE_INSTALL_MIMEDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/mime/packages -DKDE_INSTALL_METAINFODIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/metainfo -DKDE_INSTALL_QTQCHDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/doc/qch -DKDE_INSTALL_QCHDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/doc/qch -DKDE_INSTALL_MANDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/man -DKDE_INSTALL_INFODIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/info -DKDE_INSTALL_DBUSDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/dbus-1 -DKDE_INSTALL_DBUSINTERFACEDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/dbus-1/interfaces -DKDE_INSTALL_DBUSSERVICEDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/dbus-1/services -DKDE_INSTALL_DBUSSYSTEMSERVICEDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/dbus-1/system-services -DKDE_INSTALL_SYSCONFDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/etc -DKDE_INSTALL_CONFDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/etc/xdg -DKDE_INSTALL_AUTOSTARTDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/etc/xdg/autostart -DKDE_INSTALL_LOGGINGCATEGORIESDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/qlogging-categories6 -DKDE_INSTALL_SYSTEMDUNITDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/lib/systemd -DKDE_INSTALL_SYSTEMDUSERUNITDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/systemd/user -DKDE_INSTALL_EXECROOTDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02 -DKDE_INSTALL_BINDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/bin -DKDE_INSTALL_SBINDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/sbin -DKDE_INSTALL_LIBDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/lib -DKDE_INSTALL_LIBEXECDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/libexec -DKDE_INSTALL_CMAKEPACKAGEDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/lib/cmake -DKDE_INSTALL_QTPLUGINDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/lib/qt-6/plugins -DKDE_INSTALL_PLUGINDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/lib/qt-6/plugins -DKDE_INSTALL_QMLDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/lib/qt-6/qml -DKDE_INSTALL_INCLUDEDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/include -DKDE_INSTALL_LOCALSTATEDIR=/var -DKDE_INSTALL_SHAREDSTATEDIR=/com -DKDE_INSTALL_DATAROOTDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share -DKDE_INSTALL_DATADIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share -DKDE_INSTALL_DOCBUNDLEDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/doc/HTML -DKDE_INSTALL_KCFGDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/config.kcfg -DKDE_INSTALL_KCONFUPDATEDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/kconf_update -DKDE_INSTALL_KAPPTEMPLATESDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/kdevappwizard/templates -DKDE_INSTALL_KFILETEMPLATESDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/kdevfiletemplates/templates -DKDE_INSTALL_KXMLGUIDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/kxmlgui5 -DKDE_INSTALL_KNOTIFYRCDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/knotifications6 -DKDE_INSTALL_ICONDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/icons -DKDE_INSTALL_LOCALEDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/locale -DKDE_INSTALL_SOUNDDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/sounds -DKDE_INSTALL_TEMPLATEDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/templates -DKDE_INSTALL_WALLPAPERDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/wallpapers -DKDE_INSTALL_APPDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/applications -DKDE_INSTALL_DESKTOPDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/desktop-directories -DKDE_INSTALL_MIMEDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/mime/packages -DKDE_INSTALL_METAINFODIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/metainfo -DKDE_INSTALL_QTQCHDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/doc/qch -DKDE_INSTALL_QCHDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/doc/qch -DKDE_INSTALL_MANDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/man -DKDE_INSTALL_INFODIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/info -DKDE_INSTALL_DBUSDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/dbus-1 -DKDE_INSTALL_DBUSINTERFACEDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/dbus-1/interfaces -DKDE_INSTALL_DBUSSERVICEDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/dbus-1/services -DKDE_INSTALL_DBUSSYSTEMSERVICEDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/dbus-1/system-services -DKDE_INSTALL_SYSCONFDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/etc -DKDE_INSTALL_CONFDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/etc/xdg -DKDE_INSTALL_AUTOSTARTDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/etc/xdg/autostart -DKDE_INSTALL_LOGGINGCATEGORIESDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/qlogging-categories6 -DKDE_INSTALL_SYSTEMDUNITDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/lib/systemd -DKDE_INSTALL_SYSTEMDUSERUNITDIR=/nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/share/systemd/user -DECM_DIR=/nix/store/s9v5101n5x6hcydlc5hbg2pl8cf4hzg8-extra-cmake-modules-5.116.0/share/ECM/cmake -DPROTOC_EXE=/nix/store/8sbmq3x389mnh8kz3lp3m2r43p4xp33h-protobuf-33.5/bin/protoc -DProtobuf_PROTOC_EXE=/nix/store/8sbmq3x389mnh8kz3lp3m2r43p4xp33h-protobuf-33.5/bin/protoc -DProtobuf_PROTOC_EXECUTABLE=/nix/store/8sbmq3x389mnh8kz3lp3m2r43p4xp33h-protobuf-33.5/bin/protoc
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /nix/store/kbw2j1vag664b3sj3rjwz9v53cqx87sb-gcc-wrapper-15.2.0/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /nix/store/kbw2j1vag664b3sj3rjwz9v53cqx87sb-gcc-wrapper-15.2.0/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for __GLIBC__
+-- Looking for __GLIBC__ - found
+-- Performing Test _OFFT_IS_64BIT
+-- Performing Test _OFFT_IS_64BIT - Success
+-- Performing Test HAVE_DATE_TIME
+-- Performing Test HAVE_DATE_TIME - Success
+-- Performing Test HAVE_STDATOMIC
+-- Performing Test HAVE_STDATOMIC - Success
+-- Found WrapAtomic: TRUE
+-- Found OpenGL: /nix/store/wwckb31fcbwj479g7qwcb3b7cv6416pf-libglvnd-1.7.0/lib/libOpenGL.so
+-- Found WrapOpenGL: TRUE
+-- Found WrapVulkanHeaders: /nix/store/37byc757cj401da0yw8i5r29lh0qq93p-vulkan-headers-1.4.341.0/include
+-- Found XKB: /nix/store/k1gvr4prs9736r1lhqyy1plxrrvv9b4m-libxkbcommon-1.11.0/lib/libxkbcommon.so (found suitable version "1.11.0", minimum required is "0.9.0")
+-- Found Wayland_Client: /nix/store/jcc9imfj4samq59gwsskxalcd9rjicip-wayland-1.24.0/lib/libwayland-client.so (found version "1.24.0")
+-- Found Wayland_Server: /nix/store/jcc9imfj4samq59gwsskxalcd9rjicip-wayland-1.24.0/lib/libwayland-server.so (found version "1.24.0")
+-- Found Wayland_Cursor: /nix/store/jcc9imfj4samq59gwsskxalcd9rjicip-wayland-1.24.0/lib/libwayland-cursor.so (found version "1.24.0")
+-- Found Wayland_Egl: /nix/store/jcc9imfj4samq59gwsskxalcd9rjicip-wayland-1.24.0/lib/libwayland-egl.so (found version "18.1.0")
+-- Found Wayland: /nix/store/jcc9imfj4samq59gwsskxalcd9rjicip-wayland-1.24.0/lib/libwayland-client.so;/nix/store/jcc9imfj4samq59gwsskxalcd9rjicip-wayland-1.24.0/lib/libwayland-server.so;/nix/store/jcc9imfj4samq59gwsskxalcd9rjicip-wayland-1.24.0/lib/libwayland-cursor.so;/nix/store/jcc9imfj4samq59gwsskxalcd9rjicip-wayland-1.24.0/lib/libwayland-egl.so (found version "1.24.0")
+-- Found WaylandScanner: /nix/store/ym2nazjm9vqi0md5dw03vsh9zhg4v6q9-wayland-scanner-1.24.0-bin/bin/wayland-scanner
+-- Found KF6Auth: /nix/store/2i41ln27i0cy9zi7vk3hgsw39g35fr5a-kauth-6.23.0-dev/lib/cmake/KF6Auth/KF6AuthConfig.cmake (found version "6.23.0")
+-- Found KF6Crash: /nix/store/46zlmvx6iaajvkgipn94bwv2v4r371ky-kcrash-6.23.0-dev/lib/cmake/KF6Crash/KF6CrashConfig.cmake (found version "6.23.0")
+-- Found KF6Config: /nix/store/md90r4sf7k1pp97yics9526dssdqniby-kconfig-6.23.0-dev/lib/cmake/KF6Config/KF6ConfigConfig.cmake (found version "6.23.0")
+-- Found Gettext: /nix/store/md592gfars4m9madyrpj9yrq5jhckgjf-gettext-0.26/bin/msgmerge (found version "0.26")
+-- Found KF6I18n: /nix/store/2sdbkjfgxfx384dj61zjpgial7g9dm4s-ki18n-6.23.0-dev/lib/cmake/KF6I18n/KF6I18nConfig.cmake (found version "6.23.0")
+-- Found KF6KCMUtils: /nix/store/8slcp004nh5arv5gc7dz6945xihi5nj5-kcmutils-6.23.0-dev/lib/cmake/KF6KCMUtils/KF6KCMUtilsConfig.cmake (found version "6.23.0")
+-- Found KF6NewStuff: /nix/store/zh4z0hhmv39mgm1wrch2az77xjnyi6hk-knewstuff-6.23.0-dev/lib/cmake/KF6NewStuff/KF6NewStuffConfig.cmake (found version "6.23.0")
+-- Found X11: /nix/store/qh282gd7s1vyn3f6k0p5vxax579spbw6-xorgproto-2025.1/include
+-- Looking for XOpenDisplay in /nix/store/zdbhp4571kff54fwr71laia1p5yxw330-libx11-1.8.12/lib/libX11.so;/nix/store/21fbccim7r77ppvnl0mgbwj16djx1qpa-libxext-1.3.7/lib/libXext.so
+-- Looking for XOpenDisplay in /nix/store/zdbhp4571kff54fwr71laia1p5yxw330-libx11-1.8.12/lib/libX11.so;/nix/store/21fbccim7r77ppvnl0mgbwj16djx1qpa-libxext-1.3.7/lib/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found KF6KIO: /nix/store/m59bv4nxrfalg327ymxivyjdyxr6902h-kio-6.23.0-dev/lib/cmake/KF6KIO/KF6KIOConfig.cmake (found version "6.23.0")
+-- Found KF6Notifications: /nix/store/1wgc5j84xbiyrhj5fd9kdhzd1pklm6jv-knotifications-6.23.0-dev/lib/cmake/KF6Notifications/KF6NotificationsConfig.cmake (found version "6.23.0")
+-- Found KF6NotifyConfig: /nix/store/qzf3ry1qqfaszqpzwbsrpmddyh7j9807-knotifyconfig-6.23.0-dev/lib/cmake/KF6NotifyConfig/KF6NotifyConfigConfig.cmake (found version "6.23.0")
+-- Found KF6Attica: /nix/store/gdzjrbc1dvyryfipk3byg3kr3pjw85d6-attica-6.23.0-dev/lib/cmake/KF6Attica/KF6AtticaConfig.cmake (found version "6.23.0")
+-- Found KF6Runner: /nix/store/q7dwdy0y041sk837kzc110zr3syrgkq2-krunner-6.23.0-dev/lib/cmake/KF6Runner/KF6RunnerConfig.cmake (found version "6.23.0")
+-- Found KF6GlobalAccel: /nix/store/0ziyq0vr6lc1wm3g6c26hggfx6rbhpiq-kglobalaccel-6.23.0-dev/lib/cmake/KF6GlobalAccel/KF6GlobalAccelConfig.cmake (found version "6.23.0")
+-- Found KF6CoreAddons: /nix/store/yrkzpgklld25adv9nfwpd2qk7g3l0wk7-kcoreaddons-6.23.0-dev/lib/cmake/KF6CoreAddons/KF6CoreAddonsConfig.cmake (found version "6.23.0")
+-- Found KF6GuiAddons: /nix/store/6nqxiv9mcv3i7dd87x0ckzbkd95f1vmy-kguiaddons-6.23.0-dev/lib/cmake/KF6GuiAddons/KF6GuiAddonsConfig.cmake (found version "6.23.0")
+-- Found KF6DBusAddons: /nix/store/n7hbs0ja85d077802m4lq3338xlhnlp4-kdbusaddons-6.23.0-dev/lib/cmake/KF6DBusAddons/KF6DBusAddonsConfig.cmake (found version "6.23.0")
+-- Found KF6WidgetsAddons: /nix/store/js1377v8wcszkzzcyssl9f00mls43c3p-kwidgetsaddons-6.23.0-dev/lib/cmake/KF6WidgetsAddons/KF6WidgetsAddonsConfig.cmake (found version "6.23.0")
+-- Found KF6Codecs: /nix/store/a7qyq450anpb8s9jlr13km4iami98jnn-kcodecs-6.23.0-dev/lib/cmake/KF6Codecs/KF6CodecsConfig.cmake (found version "6.23.0")
+-- Found KF6Sonnet: /nix/store/9y51j0f14yi0jiyvisyhg9lsvd5k8shf-sonnet-6.23.0-dev/lib/cmake/KF6Sonnet/KF6SonnetConfig.cmake (found version "6.23.0")
+-- Found KF6Package: /nix/store/6k8havhs6dczb5zkrw8klmj16gxk7lkl-kpackage-6.23.0-dev/lib/cmake/KF6Package/KF6PackageConfig.cmake (found version "6.23.0")
+-- Found KF6IconThemes: /nix/store/i05g3wydjng8d8qyn2w40zyzqb949396-kiconthemes-6.23.0-dev/lib/cmake/KF6IconThemes/KF6IconThemesConfig.cmake (found version "6.23.0")
+-- Found KF6XmlGui: /nix/store/a7cidhkhffyh5f3pv89g2azaisr5w2pv-kxmlgui-6.23.0-dev/lib/cmake/KF6XmlGui/KF6XmlGuiConfig.cmake (found version "6.23.0")
+-- Found KF6Svg: /nix/store/bpjw5gp4n88vv345fndww55nh0i7m0b1-ksvg-6.23.0-dev/lib/cmake/KF6Svg/KF6SvgConfig.cmake (found version "6.23.0")
+-- Found KF6: success (found suitable version "6.23.0", minimum required is "6.22.0") found components: Auth Crash Config I18n KCMUtils NewStuff KIO Notifications NotifyConfig Attica Runner GlobalAccel CoreAddons GuiAddons DBusAddons Config WidgetsAddons Codecs Sonnet Package IconThemes XmlGui Svg
+-- Found PkgConfig: /nix/store/1nv3i8mpypy3d516f4pd95m0w72r73jy-pkg-config-wrapper-0.29.2/bin/pkg-config (found version "0.29.2")
+-- Checking for module 'signon-oauth2plugin'
+--   No package 'signon-oauth2plugin' found
+-- Found OpenMP_C: -fopenmp (found version "4.5")
+-- Found OpenMP_CXX: -fopenmp (found version "4.5")
+-- Found OpenMP: TRUE (found version "4.5")
+-- Found WaylandProtocols: //nix/store/djsln0xc25vs7cng9vdd7zljb0i1flyk-wayland-protocols-1.47/share/wayland-protocols (found suitable version "1.47", minimum required is "1.44")
+-- Warning: Property URL already set to "https://wayland.freedesktop.org/", overriding it with "https://gitlab.freedesktop.org/wayland/wayland-protocols/"
+-- Found Wayland: /nix/store/jcc9imfj4samq59gwsskxalcd9rjicip-wayland-1.24.0/lib/libwayland-client.so;/nix/store/jcc9imfj4samq59gwsskxalcd9rjicip-wayland-1.24.0/lib/libwayland-server.so;/nix/store/jcc9imfj4samq59gwsskxalcd9rjicip-wayland-1.24.0/lib/libwayland-cursor.so;/nix/store/jcc9imfj4samq59gwsskxalcd9rjicip-wayland-1.24.0/lib/libwayland-egl.so (found suitable version "1.24.0", minimum required is "1.2")
+-- Checking for module 'libwacom'
+--   Found libwacom, version 2.18.0
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+-- Found Canberra: /nix/store/zrn94ppg0n93fwylvpbcb5a6m29xqr9y-libcanberra-0.30/lib/libcanberra.so (found version "0.30")
+-- Found UDev: /nix/store/1zkn4iw04z7w2jg7f5v9lfc45wdk62wq-systemd-259-dev/include (found version "259")
+-- Found XCB_XCB: /nix/store/m5z0dbcz2y7r0f3rill6z02msz9b46if-libxcb-1.17.0/lib/libxcb.so (found version "1.17.0")
+-- Found XCB_SHM: /nix/store/m5z0dbcz2y7r0f3rill6z02msz9b46if-libxcb-1.17.0/lib/libxcb-shm.so (found version "1.17.0")
+-- Found XCB_ATOM: /nix/store/zrkhk8riz6myxjavvc47jrjs1m99mkfd-libxcb-util-0.4.1/lib/libxcb-util.so (found version "0.4.1")
+-- Found XCB_IMAGE: /nix/store/7xpmdrdg24xfqhiadx8b09ickbxkzw2y-libxcb-image-0.4.1/lib/libxcb-image.so (found version "0.4.1")
+-- Found XCB_RECORD: /nix/store/m5z0dbcz2y7r0f3rill6z02msz9b46if-libxcb-1.17.0/lib/libxcb-record.so (found version "1.17.0")
+-- Found XCB_XINPUT: /nix/store/m5z0dbcz2y7r0f3rill6z02msz9b46if-libxcb-1.17.0/lib/libxcb-xinput.so (found version "1.17.0")
+-- Found XCB_XKB: /nix/store/m5z0dbcz2y7r0f3rill6z02msz9b46if-libxcb-1.17.0/lib/libxcb-xkb.so (found version "1.17.0")
+-- Found XCB: /nix/store/m5z0dbcz2y7r0f3rill6z02msz9b46if-libxcb-1.17.0/lib/libxcb.so;/nix/store/m5z0dbcz2y7r0f3rill6z02msz9b46if-libxcb-1.17.0/lib/libxcb-shm.so;/nix/store/zrkhk8riz6myxjavvc47jrjs1m99mkfd-libxcb-util-0.4.1/lib/libxcb-util.so;/nix/store/7xpmdrdg24xfqhiadx8b09ickbxkzw2y-libxcb-image-0.4.1/lib/libxcb-image.so;/nix/store/m5z0dbcz2y7r0f3rill6z02msz9b46if-libxcb-1.17.0/lib/libxcb-record.so;/nix/store/m5z0dbcz2y7r0f3rill6z02msz9b46if-libxcb-1.17.0/lib/libxcb-xinput.so;/nix/store/m5z0dbcz2y7r0f3rill6z02msz9b46if-libxcb-1.17.0/lib/libxcb-xkb.so (found version "1.17.0") found components: XCB SHM IMAGE XKB XINPUT ATOM RECORD
+-- Checking for module 'xorg-libinput'
+--   No package 'xorg-libinput' found
+-- Checking for module 'xorg-server'
+--   No package 'xorg-server' found
+-- Checking for module 'xkbregistry'
+--   Found xkbregistry, version 1.11.0
+[33mCMake Warning at build/Findorg.kde.pipewire-QMLModule.cmake:25 (message):
+  qmldir not found in
+  /nix/store/aml0150mcdckc66440i7piqi2ar45r7g-sonic-desktop-interface-unstable-2026-02/lib/qt-6/qml/org/kde/pipewire
+  or
+  /nix/store/w4q31b93w262q2b75ri3jc7m3xd4i31h-qtbase-6.10.2/lib/qt-6/qml/org/kde/pipewire/qmldir
+Call Stack (most recent call first):
+  /nix/store/xkyir59i1x6a33pabjkg2a070n2i8jcz-extra-cmake-modules-6.23.0/share/ECM/modules/ECMFindQmlModule.cmake:58 (find_package)
+  CMakeLists.txt:248 (ecm_find_qmlmodule)
+
+[0m
+-- Could NOT find org.kde.pipewire-QMLModule (missing: org.kde.pipewire-QMLModule_FOUND) 
+-- Looking for statvfs
+-- Looking for statvfs - found
+-- Looking for include file limits.h
+-- Looking for include file limits.h - found
+-- Looking for include file sys/time.h
+-- Looking for include file sys/time.h - found
+-- Looking for include files sys/stat.h, sys/vfs.h
+-- Looking for include files sys/stat.h, sys/vfs.h - found
+-- Looking for include files sys/stat.h, sys/statvfs.h
+-- Looking for include files sys/stat.h, sys/statvfs.h - found
+-- Looking for include file sys/param.h
+-- Looking for include file sys/param.h - found
+-- Looking for include files sys/param.h, sys/mount.h
+-- Looking for include files sys/param.h, sys/mount.h - found
+-- Looking for include files sys/types.h, sys/statfs.h
+-- Looking for include files sys/types.h, sys/statfs.h - found
+-- Looking for include file unistd.h
+-- Looking for include file unistd.h - found
+[33mCMake Warning at CMakeLists.txt:256 (find_package):
+  By not providing "FindPackageKitQt6.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "PackageKitQt6", but CMake did not find one.
+
+  Could not find a package configuration file provided by "PackageKitQt6"
+  with any of the following names:
+
+    PackageKitQt6Config.cmake
+    packagekitqt6-config.cmake
+
+  Add the installation prefix of "PackageKitQt6" to CMAKE_PREFIX_PATH or set
+  "PackageKitQt6_DIR" to a directory containing one of the above files.  If
+  "PackageKitQt6" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+-- Found GLIB2: /nix/store/1qm74vf93ik1xjrr9kl6qvjrklljlcqh-glib-2.86.3/lib/libglib-2.0.so
+-- Checking for module 'ibus-1.0>=1.5.0'
+--   No package 'ibus-1.0' found
+-- Checking for module 'gobject-2.0'
+--   Found gobject-2.0, version 2.86.3
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+Package sysprof-capture-4 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `sysprof-capture-4.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'sysprof-capture-4', required by 'glib-2.0', not found
+-- Checking for module 'scim'
+--   No package 'scim' found
+[33mCMake Warning (dev) at /nix/store/4z51xyah9h8h3al1wclvgy6cb04vq0vl-qtdeclarative-6.10.2/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake:3607 (message):
+  LayoutManager.js is not an ECMAScript module and also doesn't contain
+  '.pragma library'.  It will be re-evaluated in the context of every QML
+  document that explicitly or implicitly imports plasma.applet.org.kde.panel.
+  Set its QT_QML_SKIP_QMLDIR_ENTRY source file property to FALSE if you
+  really want this to happen.  Set it to TRUE to prevent it.
+Call Stack (most recent call first):
+  /nix/store/xkyir59i1x6a33pabjkg2a070n2i8jcz-extra-cmake-modules-6.23.0/share/ECM/modules/ECMQmlModule6.cmake:167 (qt6_target_qml_sources)
+  /nix/store/cmrr78b5lqp2ffmhb3s5jqim2s45dm7a-libplasma-6.6.2-dev/lib/cmake/Plasma/PlasmaMacros.cmake:68 (ecm_target_qml_sources)
+  containments/panel/CMakeLists.txt:1 (plasma_add_applet)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /nix/store/w4q31b93w262q2b75ri3jc7m3xd4i31h-qtbase-6.10.2/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:3530 (message):
+  Qt policy QTP0004 is not set: You need qmldir files for each extra
+  directory that contains .qml files for your module.  Check
+  https://doc.qt.io/qt-6/qt-cmake-policy-qtp0004.html for policy details.
+  Use the qt_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /nix/store/4z51xyah9h8h3al1wclvgy6cb04vq0vl-qtdeclarative-6.10.2/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake:3873 (__qt_internal_setup_policy)
+  /nix/store/xkyir59i1x6a33pabjkg2a070n2i8jcz-extra-cmake-modules-6.23.0/share/ECM/modules/ECMQmlModule6.cmake:167 (qt6_target_qml_sources)
+  applets/kicker/CMakeLists.txt:27 (ecm_target_qml_sources)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /nix/store/w4q31b93w262q2b75ri3jc7m3xd4i31h-qtbase-6.10.2/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:3530 (message):
+  Qt policy QTP0004 is not set: You need qmldir files for each extra
+  directory that contains .qml files for your module.  Check
+  https://doc.qt.io/qt-6/qt-cmake-policy-qtp0004.html for policy details.
+  Use the qt_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /nix/store/4z51xyah9h8h3al1wclvgy6cb04vq0vl-qtdeclarative-6.10.2/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake:3873 (__qt_internal_setup_policy)
+  /nix/store/xkyir59i1x6a33pabjkg2a070n2i8jcz-extra-cmake-modules-6.23.0/share/ECM/modules/ECMQmlModule6.cmake:167 (qt6_target_qml_sources)
+  applets/kickoff/CMakeLists.txt:39 (ecm_target_qml_sources)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /nix/store/4z51xyah9h8h3al1wclvgy6cb04vq0vl-qtdeclarative-6.10.2/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake:3607 (message):
+  qml/code/LayoutMetrics.js is not an ECMAScript module and also doesn't
+  contain '.pragma library'.  It will be re-evaluated in the context of every
+  QML document that explicitly or implicitly imports
+  plasma.applet.org.kde.plasma.taskmanager.  Set its QT_QML_SKIP_QMLDIR_ENTRY
+  source file property to FALSE if you really want this to happen.  Set it to
+  TRUE to prevent it.
+Call Stack (most recent call first):
+  /nix/store/xkyir59i1x6a33pabjkg2a070n2i8jcz-extra-cmake-modules-6.23.0/share/ECM/modules/ECMQmlModule6.cmake:167 (qt6_target_qml_sources)
+  /nix/store/cmrr78b5lqp2ffmhb3s5jqim2s45dm7a-libplasma-6.6.2-dev/lib/cmake/Plasma/PlasmaMacros.cmake:68 (ecm_target_qml_sources)
+  applets/taskmanager/CMakeLists.txt:3 (plasma_add_applet)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /nix/store/4z51xyah9h8h3al1wclvgy6cb04vq0vl-qtdeclarative-6.10.2/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake:3607 (message):
+  qml/code/TaskTools.js is not an ECMAScript module and also doesn't contain
+  '.pragma library'.  It will be re-evaluated in the context of every QML
+  document that explicitly or implicitly imports
+  plasma.applet.org.kde.plasma.taskmanager.  Set its QT_QML_SKIP_QMLDIR_ENTRY
+  source file property to FALSE if you really want this to happen.  Set it to
+  TRUE to prevent it.
+Call Stack (most recent call first):
+  /nix/store/xkyir59i1x6a33pabjkg2a070n2i8jcz-extra-cmake-modules-6.23.0/share/ECM/modules/ECMQmlModule6.cmake:167 (qt6_target_qml_sources)
+  /nix/store/cmrr78b5lqp2ffmhb3s5jqim2s45dm7a-libplasma-6.6.2-dev/lib/cmake/Plasma/PlasmaMacros.cmake:68 (ecm_target_qml_sources)
+  applets/taskmanager/CMakeLists.txt:3 (plasma_add_applet)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Checking for module 'xkbcommon'
+--   Found xkbcommon, version 1.11.0
+-- X11 XInput is not found but required to keep layouts with keyboard hotplugging
+[0msplit.frag -> split.frag.qsb exposed as :/kcms/landingpage/shaders/split.frag.qsb[0m
+[0msplit.vert -> split.vert.qsb exposed as :/kcms/landingpage/shaders/split.vert.qsb[0m
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[33mCMake Warning (dev) at kcms/recentFiles/CMakeLists.txt:73 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+Merging translations into /build/bhb3ssgn80zzlbfs94xjxsgmwyr23vdq-source/build/attica-kde/kdeplugin/opendesktop.provider.
+CREATED /build/bhb3ssgn80zzlbfs94xjxsgmwyr23vdq-source/build/attica-kde/kdeplugin/opendesktop.provider
+Merging translations into /build/bhb3ssgn80zzlbfs94xjxsgmwyr23vdq-source/build/attica-kde/kdeplugin/opendesktop-rating.service.
+CREATED /build/bhb3ssgn80zzlbfs94xjxsgmwyr23vdq-source/build/attica-kde/kdeplugin/opendesktop-rating.service
+-- The following features have been enabled:
+
+ * XCB-XKB, Required for building kcm/keyboard
+ * libxft, X FreeType interface library required for font installation
+
+-- The following RUNTIME packages have been found:
+
+ * KF6Kirigami (required version >= 6.22.0), A QtQuick based components set
+   Required at runtime by many KCMs
+ * KF6KirigamiAddons (required version >= 1.0.0), Extra controls for Kirigami applications
+   Required at runtime for Kickoff
+ * KF6QQC2DesktopStyle (required version >= 6.22.0), QtQuickControls 2 style that uses QWidget's QStyle for painting
+   Required at runtime by many KCMs
+
+-- The following OPTIONAL packages have been found:
+
+ * OpenGL
+ * Qt6QuickWidgets (required version >= 6.10.0)
+ * Qt6Svg (required version >= 6.10.0)
+ * Qt6Core5Compat (required version >= 6.10.0)
+ * Qt6ShaderToolsTools (required version >= 6.10.2)
+ * Qt6ShaderTools (required version >= 6.10.0)
+ * Qt6Sql (required version >= 6.10.0)
+ * Qt6WaylandScannerTools (required version >= 6.10.2)
+ * Qt6DBusTools (required version >= 6.10.2)
+ * WrapVulkanHeaders
+ * AccountsQt6 (required version >= 1.16), Accounts management library for Qt applications, <https://gitlab.com/accounts-sso/libaccounts-qt>
+   Required for building the OpenDesktop integration plugin
+ * KAccounts6 (required version >= 20.04), Accounts management library for KDE applications
+   Required for building the OpenDesktop integration plugin
+ * SDL2 (required version >= 2.0.16), low level access to audio, keyboard, mouse, joystick, and graphics hardware, <https://www.libsdl.org/>
+   Required for building Game Controller KCM
+ * Qt6QmlTools (required version >= 6.10.2)
+ * Qt6QuickTools (required version >= 6.10.2)
+ * UDev, API for enumerating and introspecting local devices (part of systemd), <https://www.freedesktop.org/wiki/Software/systemd/>
+   Required for device discovery in keyboard daemon and game controller kcm
+ * GLIB2, Event loop and utility library, <https://wiki.gnome.org/Projects/GLib>
+   Required for building kimpanel
+ * Qt6CoreTools (required version >= 6.10.2)
+ * Qt6GuiTools (required version >= 6.10.2)
+ * Qt6WidgetsTools (required version >= 6.10.2)
+
+-- The following RECOMMENDED packages have been found:
+
+ * KF6Baloo (required version >= 6.22.0), File Searching
+   Needed to build the File Search KCM
+
+-- The following REQUIRED packages have been found:
+
+ * Qt6GuiPrivate
+ * Qt6WaylandClient (required version >= 6.10.0)
+ * KF6Auth (required version >= 6.22.0)
+ * KF6Crash (required version >= 6.22.0)
+ * KF6NewStuff (required version >= 6.22.0)
+ * KF6KIO (required version >= 6.22.0)
+ * KF6Notifications (required version >= 6.22.0)
+ * KF6NotifyConfig (required version >= 6.22.0)
+ * KF6Attica (required version >= 6.22.0)
+ * KF6Runner (required version >= 6.22.0)
+ * KF6DBusAddons (required version >= 6.22.0)
+ * KF6Sonnet (required version >= 6.22.0)
+ * KF6IconThemes (required version >= 6.22.0)
+ * KF6Svg (required version >= 6.22.0)
+ * KF6 (required version >= 6.22.0)
+ * ECM (required version >= 5.240.0)
+ * Plasma5Support (required version >= 6.6.2)
+ * Qt6Qml
+ * KF6Package
+ * Plasma
+ * PlasmaQuick (required version >= 6.6.2)
+ * PlasmaActivitiesStats (required version >= 6.6.2)
+ * KF6DocTools (required version >= 6.22.0), Tools to generate documentation
+ * Qt6Core
+ * WaylandProtocols (required version >= 1.44), Specifications of extended Wayland protocols, <https://gitlab.freedesktop.org/wayland/wayland-protocols/>
+   Collection of Wayland protocols that add functionality not available in the Wayland core protocol
+ * Wayland (required version >= 1.2), C library implementation of the Wayland protocol: a protocol for a compositor to talk to its clients, <https://wayland.freedesktop.org/>
+   Required for building Tablet input KCM
+ * LibKLookAndFeel (required version >= 6.6.2)
+ * LibKWorkspace (required version >= 6.6.2)
+ * Qt6Quick (required version >= 6.10.0)
+ * LibNotificationManager (required version >= 6.6.2)
+ * LibTaskManager (required version >= 6.6.2)
+ * KWinX11DBusInterface
+ * ScreenSaverDBusInterface
+ * KRunnerAppDBusInterface
+ * KSMServerDBusInterface
+ * KF6ItemModels
+ * Gettext
+ * KF6I18n (required version >= 6.22.0)
+ * KSysGuard
+ * KF6KDED
+ * X11, X11 libraries, <https://www.x.org>
+   Required for building the X11 based workspace
+ * Canberra, Event sound library, <https://0pointer.de/lennart/projects/libcanberra>
+   Support audible bell in kaccess
+ * XCB, X protocol C-language Binding, <https://xcb.freedesktop.org/>
+ * PkgConfig
+ * Qt6
+ * KF6Codecs (required version >= 6.23.0)
+ * KF6KCMUtils (required version >= 6.22.0)
+ * KF6GuiAddons (required version >= 6.23.0)
+ * KF6XmlGui (required version >= 6.22.0)
+ * KF6GlobalAccel (required version >= 6.22.0)
+ * PlasmaActivities (required version >= 6.6.2)
+
+-- The following OPTIONAL packages have not been found:
+
+ * org.kde.pipewire-QMLModule, QML module 'org.kde.pipewire' is a dependency.
+ * PackageKitQt6, Software Manager integration
+   Used in the KRunner plugin installer
+
+-- Could NOT find XdgUserDir (missing: XdgUserDir_EXEC) 
+[33mCMake Warning at CMakeLists.txt:340 (find_package):
+  By not providing "FindFontNotoColorEmoji.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "FontNotoColorEmoji", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "FontNotoColorEmoji" with any of the following names:
+
+    FontNotoColorEmojiConfig.cmake
+    fontnotocoloremoji-config.cmake
+
+  Add the installation prefix of "FontNotoColorEmoji" to CMAKE_PREFIX_PATH or
+  set "FontNotoColorEmoji_DIR" to a directory containing one of the above
+  files.  If "FontNotoColorEmoji" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m
+-- Configuring done (45.8s)
+-- Generating done (0.6s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_EXPORT_NO_PACKAGE_REGISTRY
+    PROTOC_EXE
+    Protobuf_PROTOC_EXE
+    Protobuf_PROTOC_EXECUTABLE
+
+[0m
+-- Build files have been written to: /build/bhb3ssgn80zzlbfs94xjxsgmwyr23vdq-source/build
+cmake: enabled parallel building
+cmake: enabled parallel installing
+configurePhase completed in 47 seconds
+Running phase: buildPhase
+@nix { "action": "setPhase", "phase": "buildPhase" }
+build flags: -j16
+[0/2] Re-checking globbed directories...
+ninja: error: '/nix/store/d398ja5gvvap89gjdv4l7p7nhghxszhr-sonic-win-unstable-2026-02/share/dbus-1/interfaces/kwin_x11_org.kde.kwin.InputDevice.xml', needed by 'kcms/libkwindevices/InputDevice_interface.cpp', missing and no known rule to make it
