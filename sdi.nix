@@ -16,7 +16,8 @@
       let
         pkgs = nixpkgs.legacyPackages.${system};
         kde = pkgs.kdePackages;
-        qt6 = pkgs.libsForQt5;
+        #qt6 = pkgs.libsForQt5;
+        qt6 = pkgs.qt6;
 
         sonicWorkspace = sonic-workspace.packages.${system}.default;
 
@@ -114,7 +115,7 @@
             #qtquickcontrols2
 
             qtshadertools
-            qtwebengine
+            #qtwebengine
 
          ]) ++ (with pkgs; [
             libX11
