@@ -77,6 +77,7 @@
 
             kitemmodels
             kded
+            knotifications
             knotifyconfig
             prison
             kstatusnotifieritem
@@ -116,7 +117,7 @@
 
             appstream-qt
             packagekit-qt
-            layer-shell-qt
+            #layer-shell-qt
 
             phonon
             kscreen
@@ -129,6 +130,7 @@
 
             kuserfeedback
 
+            kirigami
 
           ] ++ (with qt6; [
             #qtquickcontrols2
@@ -145,6 +147,7 @@
             libXcursor
             libXinerama
             libxkbcommon
+            libxcb
             libxcb-cursor
             libxcb-util
             libxcb-image
@@ -158,7 +161,7 @@
             mesa
             #wayland
             #wayland-protocols
-            libinput
+            #libinput
             udev
 
             libcanberra
@@ -173,13 +176,15 @@
 
             isocodes
             libisocodes
-            libnma
+            #libnma
             pipewire
 
             libXtst
 
             libsForQt5.kirigami2
             libsForQt5.polkit-qt
+
+            accountsservice
 
           ]);
 

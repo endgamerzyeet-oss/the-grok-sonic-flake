@@ -37,7 +37,7 @@
             qtbase
             qtdeclarative
             qtsvg
-            qtwayland
+            #qtwayland
             qt5compat
             qttools
             qtsensors
@@ -58,6 +58,8 @@
             kconfigwidgets
             kwidgetsaddons
             kservice
+            knotifications
+
 
             # ── newly added to fix current error ──
             kde.kauth
@@ -74,6 +76,8 @@
 
             plasma5support
 
+            kirigami
+
           ] ++ (with qt6; [
             #qtquickcontrols2
             qtshadertools
@@ -87,6 +91,7 @@
             libXcursor
             libXinerama
             libxkbcommon
+            libxcb
             #xcb-util
             #xcb-util-keysyms
             #xcb-util-wm
@@ -109,7 +114,7 @@
 
             libsm
             libxi
-            libcap
+            #libcap
             libei
             pipewire
             fontconfig
@@ -119,6 +124,8 @@
 
             vulkan-headers
             vulkan-loader
+
+            libxcvt
 
 
 
